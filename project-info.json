@@ -1,0 +1,30 @@
+{
+    "project": "Trivia TUI App",
+    "tech": [
+        "C++",
+        "Standard I/O",
+        "TUI Design"
+    ],
+    "features": [
+        "Interactive Trivia Gameplay Loop",
+        "Score-based Difficulty Progression",
+        "Multi-subject Question Bank",
+        "ANSI Stylized Terminal Output",
+        "Efficient Input Processing"
+    ],
+    "stack": {
+        "language": "C++",
+        "framework": "Native Console",
+        "tools": [
+            "G++",
+            "STL",
+            "Git"
+        ],
+        "database": "Local Logic Records"
+    },
+    "screenshots": [],
+    "description": {
+        "es": "Aplicación TUI desarrollada en C++ que simula un juego de trivia dinámico, enfocada en la eficiencia técnica y una navegación sencilla por teclado.",
+        "en": "TUI application developed in C++ simulating a dynamic trivia game, focused on technical efficiency and simple keyboard navigation."
+    }
+}

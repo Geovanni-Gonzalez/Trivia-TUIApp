@@ -1,0 +1,14 @@
+P: Cual es la capital de Costa Rica?
+O: Bogota
+O: San Jose
+O: Panama
+R: 2
+P: Cuanto es 2 + 2?
+O: 3
+O: 4
+O: 5
+R: 2
+P: Color del cielo?
+O: Azul
+O: Verde
+R: 1

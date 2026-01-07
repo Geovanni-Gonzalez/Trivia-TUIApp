@@ -1,0 +1,55 @@
+﻿g++ : In file included from game.h:7,
+En línea: 1 Carácter: 1
++ g++ main.cpp -o trivia_elite.exe 
+2>&1 | Out-File -FilePath build_log. 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpeci 
+   fied: (In file included from game.  
+  h:7,:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCo 
+   mmandError
+ 
+                 from main.cpp:3:
+files.h: In static member function 
+'static void 
+ProfileLoader::saveStat(const char*, 
+PlayerStats)':
+files.h:136:17: error: 'my_strstr' was 
+not declared in this scope; did you 
+mean 'strstr'?
+  136 |             if 
+(my_strstr(buffer, name) == buffer) { 
+// Starts with name
+      |                 ^~~~~~~~~
+      |                 strstr
+files.h: In static member function 
+'static PlayerStats 
+ProfileLoader::loadStat(const char*)':
+files.h:167:17: error: 'my_strstr' was 
+not declared in this scope; did you 
+mean 'strstr'?
+  167 |             if 
+(my_strstr(buffer, name) == buffer) {
+      |                 ^~~~~~~~~
+      |                 strstr
+files.h:168:27: error: 'my_strchr' was 
+not declared in this scope; did you 
+mean 'my_strcpy'?
+  168 |                 char* p = 
+my_strchr(buffer, ':');
+      |                           
+^~~~~~~~~
+      |                           
+my_strcpy
+game.h: At global scope:
+game.h:316:10: error: 'void 
+Game::showResults()' cannot be 
+overloaded with 'void 
+Game::showResults()'
+  316 |     void showResults() {
+      |          ^~~~~~~~~~~
+game.h:104:10: note: previous 
+declaration 'void Game::showResults()'
+  104 |     void showResults() {
+      |          ^~~~~~~~~~~
