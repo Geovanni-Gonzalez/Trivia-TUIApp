@@ -1,30 +1,32 @@
 {
-    "project": "Trivia TUI App",
+    "project": "Trivia TUI App - Elite Edition",
     "tech": [
-        "C++",
-        "Standard I/O",
-        "TUI Design"
+        "C++ (C++98 Standard)",
+        "Windows Console API",
+        "TUI Graphic Design",
+        "Binary Data Persistence"
     ],
     "features": [
-        "Interactive Trivia Gameplay Loop",
-        "Score-based Difficulty Progression",
-        "Multi-subject Question Bank",
-        "ANSI Stylized Terminal Output",
-        "Efficient Input Processing"
+        "Advanced Interactive Navigation (Arrow Keys)",
+        "Strategic Lifelines (50/50, Double or Nothing)",
+        "Real-time Question Timer System",
+        "Persistent Player Profiles & Statistics",
+        "Audiovisual Feedback (Beep & Multi-color ANSI)",
+        "Manual implementation of Custom String & List Structures"
     ],
     "stack": {
-        "language": "C++",
-        "framework": "Native Console",
+        "language": "C++98",
+        "framework": "Native Win32 Console",
         "tools": [
-            "G++",
-            "STL",
-            "Git"
+            "MinGW / GCC",
+            "Borland C++ (BCC 10.2)",
+            "Manual Data Structures (No STL)"
         ],
-        "database": "Local Logic Records"
+        "database": "Binary & Text File Persistence"
     },
     "screenshots": [],
     "description": {
-        "es": "Aplicación TUI desarrollada en C++ que simula un juego de trivia dinámico, enfocada en la eficiencia técnica y una navegación sencilla por teclado.",
-        "en": "TUI application developed in C++ simulating a dynamic trivia game, focused on technical efficiency and simple keyboard navigation."
+        "es": "Experiencia definitiva de Trivia en TUI con navegación táctil por teclado, comodines tácticos y guardado de estadísticas permanentes, todo bajo estrictas restricciones de C++ antiguo.",
+        "en": "Ultimate TUI Trivia experience with tactile keyboard navigation, tactical lifelines, and permanent stats saving, all built under strict legacy C++ constraints."
     }
 }
