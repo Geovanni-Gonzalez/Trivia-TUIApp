@@ -1,32 +1,58 @@
 {
-    "project": "Trivia TUI App - Elite Edition",
-    "tech": [
-        "C++ (C++98 Standard)",
-        "Windows Console API",
-        "TUI Graphic Design",
-        "Binary Data Persistence"
-    ],
-    "features": [
-        "Advanced Interactive Navigation (Arrow Keys)",
-        "Strategic Lifelines (50/50, Double or Nothing)",
-        "Real-time Question Timer System",
-        "Persistent Player Profiles & Statistics",
-        "Audiovisual Feedback (Beep & Multi-color ANSI)",
-        "Manual implementation of Custom String & List Structures"
-    ],
-    "stack": {
-        "language": "C++98",
-        "framework": "Native Win32 Console",
-        "tools": [
-            "MinGW / GCC",
-            "Borland C++ (BCC 10.2)",
-            "Manual Data Structures (No STL)"
+    "en": {
+        "tech": [
+            "C++98",
+            "Win32 Console API",
+            "TUI Graphics",
+            "BCC 10.2 Compiler"
         ],
-        "database": "Binary & Text File Persistence"
+        "features": [
+            "Advanced interactive navigation using keyboard arrow keys",
+            "Strategic lifeline system (50:50, Double points or Nothing)",
+            "Real-time synchronized countdown timer system",
+            "Binary persistence for player profiles and leaderboards",
+            "Audiovisual feedback using console beeps and ANSI colors",
+            "Zero-dependency implementation (No STL usage)"
+        ],
+        "stack": {
+            "language": "C++98",
+            "framework": "Native Win32 TUI",
+            "tools": [
+                "GCC / MinGW",
+                "Borland C++",
+                "Custom Data Structures"
+            ],
+            "database": "Binary Data Persistence"
+        },
+        "screenshots": [],
+        "description": "A flagship C++ project that redefines the capabilities of legacy terminal interfaces. This elite trivia engine provides a 'tactile' UI experience through low-level Win32 keyboard event handling, allowing full arrow-key navigation in a headless environment. Built with strict C++98 constraints and zero STL usage, it implements its own binary data storage for persistent leaderboards and a real-time interrupt-style timer system, creating a fast, reliable, and deeply polished professional TUI application."
     },
-    "screenshots": [],
-    "description": {
-        "es": "Experiencia definitiva de Trivia en TUI con navegación táctil por teclado, comodines tácticos y guardado de estadísticas permanentes, todo bajo estrictas restricciones de C++ antiguo.",
-        "en": "Ultimate TUI Trivia experience with tactile keyboard navigation, tactical lifelines, and permanent stats saving, all built under strict legacy C++ constraints."
+    "es": {
+        "tech": [
+            "C++98",
+            "Win32 Console API",
+            "Gráficos TUI",
+            "Compilador BCC 10.2"
+        ],
+        "features": [
+            "Navegación interactiva avanzada mediante flechas de teclado",
+            "Sistema de comodines estratégicos (50:50, Doble o Nada)",
+            "Sistema de temporizador de cuenta regresiva sincronizado",
+            "Persistencia binaria para perfiles de jugador y tablas de líderes",
+            "Retroalimentación audiovisual mediante beeps y colores ANSI",
+            "Implementación sin dependencias (Sin uso de STL)"
+        ],
+        "stack": {
+            "language": "C++98",
+            "framework": "TUI Win32 Nativa",
+            "tools": [
+                "GCC / MinGW",
+                "Borland C++",
+                "Estructuras de Datos Propias"
+            ],
+            "database": "Persistencia de Datos Binarios"
+        },
+        "screenshots": [],
+        "description": "Un proyecto insignia en C++ que redefine las capacidades de las interfaces de terminal heredadas. Este motor de trivia de élite proporciona una experiencia de usuario 'táctil' mediante el manejo de bajos niveles de eventos de teclado de Win32, permitiendo navegación completa con flechas. Construido con restricciones estrictas de C++98 y sin el uso de STL, implementa su propio almacenamiento binario para tablas de clasificación y un sistema de temporizador en tiempo real."
     }
 }
