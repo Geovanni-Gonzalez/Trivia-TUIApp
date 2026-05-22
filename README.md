@@ -1,54 +1,71 @@
-# Trivia TUI App - Elite Edition 🏆
+﻿# Trivia TUI App
 
 ## Descripción
+Juego de trivia en C++ para terminal con preguntas por archivo, perfiles/historial y separación en headers.
 
-Juego de Trivia en consola desarrollado en C++ (Estándar C++98) que ofrece una experiencia moderna de TUI (Text User Interface) con navegación interactiva, efectos de sonido y mecánicas estratégicas.
+## Objetivo
+Practicar C++ modular, manejo de archivos y experiencia TUI.
 
-Compatible con Borland C++ (BCC 10.2) y compiladores modernos (GCC/MinGW). El proyecto implementa estructuras de datos manuales (`LinkedList`, `MyString`) sin utilizar la STL ni librerías externas.
+## Tecnologías utilizadas
+- C++
+- Consola
+- Archivos .txt
+- Programación modular
 
-## Características de Élite
+## Funcionalidades principales
+- Juego de trivia
+- Banco General.txt
+- Historial/perfiles
+- Headers de modelos/juego/archivos
+- Ejecutables incluidos
 
-- **Navegación Interactiva**: Selección de opciones mediante las flechas del teclado (`↑` `↓`).
-- **Sistema de Comodines**:
-  - **50/50**: Elimina dos opciones incorrectas.
-  - **Doble o Nada**: Arriesga tus puntos para duplicar la ganancia o perderlo todo.
-- **Temporizador de Presión**: Límite de 15 segundos por pregunta.
-- **Perfiles de Jugador**: Guardado persistente de estadísticas (juegos, puntos, aciertos).
-- **Audio & Visuales**: Sonidos reactivos (`Beep`) y colores dinámicos según el estado del juego.
+## Mi rol
+Implementé flujo de juego, estructuras, carga de preguntas y persistencia.
 
-## Estructura del Proyecto
+## Aprendizajes clave
+- Headers
+- Archivos C++
+- Estructuras de juego
+- Validación
 
-- `main.cpp`: Punto de entrada (Configura UTF-8).
-- `game.h`: Lógica de juego avanzada (Comodines, Timers, Turnos).
-- `files.h`: Manejo de archivos (Preguntas y Perfiles binarios).
-- `models.h`: Estructuras de datos del juego.
-- `structures.h`: Implementación manual de C-Strings y Listas Enlazadas.
-- `utils.h`: Motor de TUI (Navegación, Audio, Colores).
-
-## Instrucciones de Compilación
-
-### Opción 1: GCC / MinGW (Recomendado)
-
+## Instalación y ejecución
 ```bash
-g++ main.cpp -o trivia_elite.exe
+cd Trivia-TUIApp/programa
+g++ main.cpp -o trivia.exe
+./trivia.exe
 ```
 
-### Opción 2: Borland C++ (BCC 10.2)
+## Estructura del proyecto
+- main.cpp: entrada
+- *.h: módulos
+- General.txt: preguntas
+- history/profiles: datos
 
-```cmd
-bcc32 main.cpp
-```
+## Capturas o demo
+![Captura principal](screenshots/principalImage.png)
 
-## Ejecución
+## Estado del proyecto
+Proyecto académico funcional.
 
-```cmd
-./trivia_elite.exe
-```
+## Valor técnico demostrado
+Demuestra fundamentos de C++, modularidad y persistencia simple.
 
-## Reglas del Juego
+## Mejoras futuras
+- Separar .cpp
+- Agregar Makefile
+- Documentar preguntas
 
-1. **Selección**: Navega por las categorías con las flechas.
-2. **Comodines**: Antes de cada pregunta, puedes elegir usar un comodín (1 uso por partida).
-3. **Tiempo**: Responde antes de que el contador llegue a 0.
-4. **Progreso**: Tus puntos se multiplican según la ronda actual.
-5. **Persistencia**: Tus estadísticas se actualizan automáticamente al final de la partida.
+## Autor
+Geovanni González  
+Estudiante de Ingeniería en Computación  
+GitHub: [Geovanni-Gonzalez](https://github.com/Geovanni-Gonzalez)
+
+
+
+
+
+
+
+
+
+
